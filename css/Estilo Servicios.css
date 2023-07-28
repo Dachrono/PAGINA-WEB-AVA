@@ -1,0 +1,193 @@
+
+* /* Reset a todos los campos */
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.Contenedor /* Caja principal */
+{
+	width:90%;
+	max-width:1500px;
+	margin:auto;
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+
+.Encabezado /* Encabezado */
+{
+	background:#fff;
+	width:100%;
+	/* Flexbox */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.Ladoder
+{
+	/* Flexbox*/
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+
+}
+
+.Boton /* estilo de los botones */
+{
+
+	width:100%;
+	margin-top: 40px;
+	margin-left: 3px;
+	margin-right: 3px;
+	/* Flexbox */
+	display:flex;
+	align-items:center;
+}
+
+.boton
+{
+	border-radius: 15px 50px 30px;
+}
+
+.Boton a
+{
+	background:#75BFCA;
+	color:#fff;
+	box-shadow:0px 3px 0px #218493;
+	text-align: center;
+	text-decoration: none;
+	padding:15px;
+}
+
+.boton span
+{
+	margin-right:5px;
+}
+
+.boton:hover
+{
+	box-shadow:0px 0px 0px;
+	padding-top:6px;
+}
+
+.Servicios
+{
+  width: 100%;
+  background-position: 350px 0px;
+	background-repeat: no-repeat;
+	background-size: 100% 70%;
+  background-image: url(../Imagenes/servicios/3.png);
+  font-size: 36px;
+  font-style: italic;
+  color: #072B4F;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.uno
+{
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.dos
+{
+  text-align: center;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.tres
+{
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.cuatro
+{
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.uno img
+{
+  margin: 20px;
+  width: 350px;
+}
+
+.dos img
+{
+  margin: 20px;
+  width: 350px;
+}
+
+.tres img
+{
+  margin: 20px;
+  width: 250px;
+}
+
+.cuatro img
+{
+  margin: 20px;
+  width: 250px;
+}
+
+
+/* Estilo del pie de paguina */
+.Piepag
+{
+	width:100%;
+	background:#A9A9A9;
+}
+
+.Piepag a:link
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.Piepag a:visited
+{
+	color: #000;
+}
+
+.Piepag2
+{
+	width:100%;
+	background:#9d62c6;
+	opacity: .8;
+	text-align: center;
+}
+
+.Piepag2 img
+{
+	width: 30px;
+}
+
+.Piepag2 a:link
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.Piepag2 a:visited
+{
+	color: #000;
+}

@@ -1,0 +1,192 @@
+<html>
+<head>
+		<meta charset="UTF-8">
+
+ 		<title>Compañero ideal</title>
+
+ 		<link href="css/Estilo Companero.css" rel="stylesheet" type="text/css">
+ 		<link href="Fonts.css" rel="stylesheet" type="text/css">
+
+		<!-- carousel -->
+		<link href="css/carruselCompanero.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.featureCarousel.min.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body>
+
+	<div class="Contenedor"><!--div principal-->
+
+		<div class="Encabezado"><!-- Codigo del encabezado-->
+
+				<img src="Imagenes/logo ava_Encabezado.png">
+
+				<div class="Ladoder">
+
+					<img src="Imagenes/ava_encabezado.png" width="130%" height="20%">
+
+					<div class="Boton">
+
+						<a href="index.html" class="boton">
+							<span class="icon-home3"></span>
+							Inicio
+						</a>
+
+						<a href="Promo.html" class="boton">
+							<span class="icon-new"></span>
+							Promociones
+						</a>
+
+						<a href="Conocenos.html" class="boton">
+							<span class="icon-hand2"></span>
+							Conocenos
+						</a>
+
+						<a href="Servicios.html" class="boton">
+							<span class="icon-megaphone5"></span>
+							Servicios
+      			</a>
+
+						<a href="Contacto.php" class="boton">
+							<span class="icon-v-card"></span>
+							Contacto
+						</a>
+
+					</div>
+
+			  </div>
+
+		</div>
+
+		<div class="Adopta">
+
+			<div class="Candidato1">
+
+				<img src="Imagenes/Adopta/1.jpeg"><br>
+
+				Ella se llama Lola es cruza de labrador tiene 3 años Aproximadamente, es muy dulce
+				y le encanta salir a pasear, se entrega esterilizada.
+
+			</div>
+
+		</div>
+
+		<div class="Adopta2">
+
+			<div class="Candidato2">
+
+				<img src="Imagenes/Adopta/4.jpeg"><br>
+
+				Este Gatito lleva algunas semanas en la calle, parece estar perdido, es muy dócil
+				y lindo, necesita un hogar donde lo amen y lo cuiden.
+
+			</div>
+
+			<div class="Candidato3">
+
+				<img src="Imagenes/Adopta/2.jpeg"><br>
+
+				El es Tobbi, es macho de 4 años, es un perrito muy<br> juguetón y bien portado, dócil y
+				amoroso, Tobbi<br> fue rescatado, estaba abandonado dentro de una casa<br> sin alimento, desnutrido
+				y muy muy solo, ahora ya<br> se ha recuperado pero necesita una familia que lo ame<br> y lo cuide.
+				Se entrega esterilizado y vacunado.
+
+			</div>
+
+			<div class="Candidato4">
+
+				<img src="Imagenes/Adopta/3.jpeg"><br>
+
+				Amigos ayúdenos a difundir la foto de esta parrita súper amorosa que necesita un nuevo hogar,
+				fue encontrada hace unos días y rescatada por @Nadadora de aguas abiertas Grace , ya ha sido
+				esterilizada y desparasitada, recibió su baño y es súper cariñosa y calmada. Merece un nuevo
+				hogar y los #Petslovers podemos hallarle uno.
+
+			</div>
+
+		</div>
+
+		<div class="Carrusel"><!-- Codigo del carrusel -->
+
+			<div class="carousel-container" align="center">
+				<div id="carousel">
+
+					<a id="but_start" href="#">Iniciar</a> | <a id="but_pause" href="#">Pausar</a>
+
+					<div class="carousel-feature">
+						<img class="carousel-image" alt="Image Caption" src="Imagenes/ImaCarrCom/1.png">
+						<!-- <div class="carousel-caption">
+						<p> Comentario. </p>
+						</div> -->
+					</div>
+
+					<div class="carousel-feature">
+          	<img class="carousel-image" alt="Image Caption" src="Imagenes/ImaCarrCom/2.png">
+          	<!-- <div class="carousel-caption">
+          	<p> Comentario. </p>
+          	</div> -->
+         	</div>
+
+         	<div class="carousel-feature">
+          	<img class="carousel-image" alt="Image Caption" src="Imagenes/ImaCarrCom/3.png">
+          	<!-- <div class="carousel-caption">
+          	<p> Comentario. </p>
+          	</div> -->
+         	</div>
+
+         	<div class="carousel-feature">
+          	<img class="carousel-image" alt="Image Caption" src="Imagenes/ImaCarrCom/4.png">
+          	<!-- <div class="carousel-caption">
+          	<p> Comentario. </p>
+          	</div> -->
+         	</div>
+
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				$(document).ready
+				(function()
+	  		{
+       			var carousel = $("#carousel").featureCarousel
+	  			({
+          // include options like this:
+          // (use quotes only for string values, and no trailing comma after last option)
+          // option: value,
+          // option: value
+      		});
+
+      	$("#but_pause").click
+	   		(function ()
+	   			{
+						carousel.pause();
+       		});
+
+       	$("#but_start").click
+	   		(function ()
+	   			{
+						carousel.start();
+       		});
+      	});
+			</script>
+
+		</div>
+
+		<div class="Piepag"> <!--Pie de pagina-->
+
+			<a href="Politicas de privacidad.html">Politicas de privacidad.</a><br>
+			2017 AVA veterinaria
+
+		</div>
+
+		<div class="Piepag2"> <!--Pie de pagina-->
+
+			Marketing and desing by <a href="http://www.digitalfanovi.com"><img src="Imagenes/DF.png">igital Fanovi</a>
+
+		</div>
+
+	</div>
+
+</body>
+</html>

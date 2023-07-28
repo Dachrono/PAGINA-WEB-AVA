@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+.carousel-container
+{
+  position:center;
+  width:auto;
+}
+
+#carousel
+{
+  height:450px;
+  width:100%;
+  margin-top: 30px;
+  background-color:#fff;
+  position:relative;
+  font-size:12px;
+  font-family: Arial;
+}
+
+#but_pause
+{
+	font-size:14px;
+	font-style:italic;
+	color:#A9A9A9;
+	text-decoration:none;
+}
+
+#but_start
+{
+	font-size:14px;
+	font-style:italic;
+	color:#A9A9A9;
+	text-decoration:none;
+}
+
+.carousel-image
+{
+  height: 400px;
+  width:  400px;
+  border:0;
+  display:block;
+}
+
+.carousel-feature
+{
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  border:2px solid #5d5d5d;
+  cursor:pointer;
+}
+
+.carousel-feature .carousel-caption
+{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color:#010101;
+}
+.carousel-feature .carousel-caption p
+{
+  margin:0;
+  padding:5px;
+  font-weight:bold;
+  font-size:12px;
+  color:white;
+}
+
+.tracker-summation-container
+{
+  position:absolute;
+  color:#010101;
+  right:48px;
+  top:380px;
+  padding:3px;
+  margin:3px;
+  background-color:#75BFCA;
+}
+.tracker-individual-container {
+  position:absolute;
+  color:#010101;
+  right:48px;
+  top:350px;
+  padding:0;
+  margin:0;
+}
+.tracker-individual-container li {
+  list-style:none;
+}
+.tracker-individual-container .tracker-individual-blip {
+  margin:0 3px;
+  padding:0 3px;
+  color:#010101;
+  text-align:center;
+  background-color:#fff;
+}
+.tracker-individual-container .tracker-individual-blip-selected {
+  color:whithe;
+  font-weight:bold;
+  background-color:#75BFCA;
+}

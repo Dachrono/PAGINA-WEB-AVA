@@ -1,0 +1,282 @@
+
+* /* Reset a todos los campos */
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.Contenedor /* Caja principal */
+{
+	width:90%;
+	max-width:1500px;
+	margin:auto;
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+
+.Encabezado /* Encabezado */
+{
+	background:#fff;
+	width:100%;
+	/* Flexbox */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.Ladoder
+{
+	/* Flexbox*/
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+
+}
+
+.Boton /* estilo de los botones */
+{
+
+	width:100%;
+	margin-top: 40px;
+	margin-left: 3px;
+	margin-right: 3px;
+	/* Flexbox */
+	display:flex;
+	align-items:center;
+}
+
+.boton
+{
+	border-radius: 15px 50px 30px;
+}
+
+.Boton a
+{
+	background:#75BFCA;
+	color:#fff;
+	box-shadow:0px 3px 0px #218493;
+	text-align: center;
+	text-decoration: none;
+	padding:15px;
+}
+
+.boton span
+{
+	margin-right:5px;
+}
+
+.boton:hover
+{
+	box-shadow:0px 0px 0px;
+	padding-top:6px;
+}
+
+/* Fondo de los perros */
+.FondoPerros
+{
+	width: 100%;
+	background-position: 0px 70px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(../Imagenes/Fondo_qsomos2.jpg);
+}
+
+/* Estilo quienes somos */
+.Qsomos
+{
+	width:100%;
+	padding:10px;
+	margin:auto;
+	/* Flexbox */
+	display: flex;
+	justify-content:space-between;
+ 	flex-direction:row;
+	flex-wrap:no-wrap;
+}
+
+.Qsomos2
+{
+	width:100%;
+	padding:10px;
+	margin:auto;
+	/* Flexbox */
+	display: flex;
+	align-items:center;
+ 	flex-direction:column;
+	flex-wrap:no-wrap;
+}
+
+.Qsomos2 a:link
+{
+	text-decoration: none;
+	/* Flexbox */
+	display: flex;
+	flex-direction: row;
+}
+
+.Elemento
+{
+	display: flex;
+	flex-direction:row;
+}
+
+.Letras
+{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#072B4F;
+	font-size: 40px;
+	font-weight: bolder;
+
+	/* Flexbox */
+	display: flex;
+    align-items:center;
+}
+
+.Qsomos2 img
+{
+	/* Flexbox */
+	display: flex;
+   align-items:center;
+}
+
+.Equipo
+{
+	display: flex;
+	align-items:center;
+}
+
+.Articulo
+{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:20px;
+	/* Flexbox*/
+	display: flex;
+	justify-content:center;
+	flex-direction:column;
+	flex-wrap:no-wrap;
+}
+
+.Sociales img
+{
+	width:50px;
+	height:50px;
+}
+
+.Equipo img
+{
+	width:446px;
+	height:622px;
+}
+
+.Video
+{
+	width: 100%;
+}
+
+/* Estilo del div del video */
+.Consulta
+{
+	padding:20px;
+	background:#A9A9A9;
+	width: 100%;
+	/* Flexbox*/
+	display: flex;
+	justify-content:space-around;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.Doglleza
+{
+	padding:20px;
+	background:#75BFCA;
+	width:100%;
+	/* Flexbox*/
+	display: flex;
+	justify-content:space-around;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.Video img
+{
+	width: 430;
+	height: 200;
+}
+
+/* Estilo del carrusel */
+.Carrusel
+{
+	width:100%;
+}
+
+/* Estilo del pie de paguina */
+.Piepag
+{
+	width:100%;
+	background:#A9A9A9;
+}
+
+.Piepag a:link
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.Piepag a:visited
+{
+	color: #000;
+}
+
+.Piepag2
+{
+	width:100%;
+	background:#9d62c6;
+	opacity: .8;
+	text-align: center;
+}
+
+.Piepag2 img
+{
+	width: 30px;
+}
+
+.Piepag2 a:link
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.Piepag2 a:visited
+{
+	color: #000;
+}
+
+@media screen and (max-width: 1000px)
+{
+	.Video
+	{
+		align-items: center;;
+		flex-wrap: no-wrap;
+		flex-direction: column;
+	}
+
+	.Video img
+	{
+		padding: 30px;
+		width: 530;
+		height: 300;
+
+	}
+
+	.Qsomos2 img
+	{
+		align-items: center;
+		width: 160px;
+		height: 240px;
+	}
+
+}
